@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Pillow Model</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <style>
+    #webgl {
+      width: 100%;
+      height: 100%;
+      max-width: 800px;
+      margin: 0;
+      overflow: hidden;
+      
+    }
+    canvas{
+      width: 100% !important;
+    }
+    .jumbotron{
+      background-image: url('/images/sky1.jpg');
+    }
+  </style>
+</head>
+<body>
+  <div style="margin:100px;">   
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">ThreeJS</a>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron" style="padding:40px;justify-content: center;align-items: center;display: flex;">
+      <div id="webgl"></div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/86/three.min.js"></script>
+  <script type="module" src="/javascripts/pillow.js"></script>
+</body>
+</html>
